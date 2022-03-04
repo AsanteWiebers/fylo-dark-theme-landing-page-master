@@ -1,0 +1,24 @@
+:root {
+
+    --primary-intro: 217 28% 15%;
+    --primary-background: 218 28% 13%;
+    --primary-background-footer: 216 53% 9%;
+    --primary-background-testimonial: 219 30% 18%;
+
+    --accent-cyan: 176 68% 64%;
+    --accent-blue: 198 60% 50%;
+    --accent-light-red: 0 100% 63%;
+    --accent-white: 0 0 100;
+
+    /* fonts */
+
+    --fs-600: 2rem;
+    --fs-500: 1.75rem;
+    --fs-400: 1.125rem;
+    --fs-300: 1rem;
+    --fs-200: 0.875rem;
+
+    --ff-sans: 'Open Sans', sans-serif;
+    --ff-raleway: 'Raleway', sans-serif;
+    
+}
