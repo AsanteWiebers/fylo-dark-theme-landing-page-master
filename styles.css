@@ -11,7 +11,7 @@
     --accent-cyan: 176 68% 64%;
     --accent-blue: 198 60% 50%;
     --accent-light-red: 0 100% 63%;
-    --accent-white: 0 0 100;
+    --accent-white: 0 100% 100%;
 
     /* fonts */
 
@@ -40,8 +40,10 @@ h3,
 h4,
 p,
 ul,
-li {
+li, 
+a {
     margin: 0;
+    padding: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -64,7 +66,8 @@ img {
 
 /* global styling */
 
-body {
+body {  
+    font-family: var(--ff-sans);
     min-height: 100vh;
     overflow-x: hidden;
     line-height: 1.6;
@@ -92,7 +95,85 @@ body {
 }
 
 .wide-container {
-    padding: 0 1rem;
+    padding: 0 2rem;
     margin: 0 auto;
 }
 
+/* colours */
+
+.dark-bg-intro {
+    background: hsl(var(--primary-intro));
+}
+
+.dark-bg {
+    background: hsl(var(--primary-background));
+}
+
+.dark-bg-testimonial {
+    background: hsl(var(--primary-background-testimonial));
+}
+
+.dark-bg-footer {
+    background: hsl(var(--primary-background-footer));
+}
+
+.cyan-bg {
+    background: hsl(var(--accent-cyan));
+}
+
+.text-white {
+    color: hsl(var(--accent-white));
+}
+.text-cyan {
+    color: hsl(var(--accent-cyan));
+}
+
+.fs-200 {
+    font-size: 0.875rem ;
+}
+
+.fs-300 {
+    font-size: 1rem ;
+}
+
+.fs-400 {
+    font-size: 1.125rem ;
+}
+
+.fs-500 {
+    font-size: 1.75rem ;
+}
+
+.fs-600 {
+    font-family: 2rem;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* navigation */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em 5em;
+}
+
+.nav_list {
+    display: inline-flex;
+}
+
+.nav__link {
+    padding: 0 .5em 0;
+    color: hsl(var(--accent-white));
+}
+
+.logo {
+    
+    width: 100px;
+}
