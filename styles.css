@@ -1,3 +1,6 @@
+
+/* Custom properties */
+
 :root {
 
     --primary-intro: 217 28% 15%;
@@ -21,4 +24,72 @@
     --ff-sans: 'Open Sans', sans-serif;
     --ff-raleway: 'Raleway', sans-serif;
     
+}
+
+/* resets */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+figure,
+picture,
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* global styling */
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    line-height: 1.6;
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.container {
+    padding: 0 4rem;
+    margin: 0 auto;
+    /*  */
+    max-width: 80rem;
+}
+
+.wide-container {
+    padding: 0 1rem;
+    margin: 0 auto;
 }
