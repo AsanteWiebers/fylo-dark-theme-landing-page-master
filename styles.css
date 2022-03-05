@@ -159,6 +159,11 @@ body {
     font-weight: 700;
 }
 
+/* text alignment */
+
+.center {
+    text-align: center;
+}
 /* buttons */
 
 .btn {
@@ -201,4 +206,82 @@ body {
 .hero {
     text-align: center;
     width: 95%;
+}
+
+/* main area */
+
+.main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-icon {
+    text-align: center;
+    margin: 0 auto;
+    padding: 4em 0 4em;
+}
+
+/* productive section */
+
+.productive-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10em 0 5em;
+}
+
+.heading__productive {
+    padding: 1em 0 1em;
+}
+
+.text__productive  {
+    padding: 0 0 1em;
+}
+
+.underline {
+    border-bottom: 2px solid hsl(var(--accent-cyan));
+    width: 175px;
+
+}
+
+.arrow-icon {
+    position: relative;
+    bottom: 1.4em;
+    left: 10em;
+}
+
+/* cards */
+
+.profile-container {
+    margin: 13em 0;
+}
+
+.big-quotes {
+    bottom: 37px;
+    left: 15px;
+    position: relative;
+    width: 30px;
+}
+
+.card {
+    background: hsl(var(--primary-background-testimonial));
+    border-radius: 20px;
+    padding: 1em 0 2em;
+    margin: 1.5em 0 3em;
+    height: 280px;
+   
+}
+
+.card_text {
+    padding: 2em 1em;
+}
+
+.profile-img {
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    width: 35px;
+}
+
+.profile {
+    padding: 0 1em;
 }
