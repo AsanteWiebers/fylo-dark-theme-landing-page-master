@@ -285,3 +285,27 @@ body {
 .profile {
     padding: 0 1em;
 }
+
+/* cta */
+
+.cta_card {
+    text-align: center;
+    background-color: hsl(var(--primary-background-testimonial));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+    border-radius: 20px;
+    padding: 2em ;
+}
+
+.cta_title {
+    margin: 0 0 1em;
+}
+
+.cta_text {
+    margin: 0 0 2em;
+}
+
+input {
+    border-radius: 25px;
+    padding: 12px 20px;
+    width: 320px;
+}
