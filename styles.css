@@ -32,6 +32,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -45,7 +46,6 @@ p,
 ul,
 li, 
 a {
-    margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -91,7 +91,7 @@ body {
 }
 
 .container {
-    padding: 0 4rem;
+    padding: 0 1rem;
     margin: 0 auto;
     /*  */
     max-width: 80rem;
@@ -163,10 +163,11 @@ body {
 
 .center {
     text-align: center;
+    margin: 0 auto;
 }
 /* buttons */
 
-.btn {
+.hero__btn {
     color: hsl(var(--accent-white));
     background: hsl(var(--accent-cyan));
     border: none;
@@ -176,8 +177,18 @@ body {
     display: inline-block;
     padding: 15px 80px;
     margin: 2em 0 10em;
-    
-    
+}
+
+.cta__btn {
+    color: hsl(var(--accent-white));
+    background: hsl(var(--accent-cyan));
+    border: none;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    display: block;
+    padding: 15px 80px;
+    margin: 2em 0 10em;
 }
 
 /* navigation */
@@ -252,7 +263,7 @@ body {
 /* cards */
 
 .profile-container {
-    margin: 13em 0;
+    margin: 5em 0;
 }
 
 .big-quotes {
@@ -294,6 +305,9 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
     border-radius: 20px;
     padding: 2em ;
+    position: relative;
+    top: 15em;
+    z-index: 10;
 }
 
 .cta_title {
@@ -306,6 +320,74 @@ body {
 
 input {
     border-radius: 25px;
+    border: none;
     padding: 12px 20px;
-    width: 320px;
+    width: 100%
+    
+}
+
+/* footer */
+
+footer {
+    background-color: hsl(var(--primary-background-footer));
+    color: hsl(var(--accent-white));
+    
+    padding-top: 17em;
+}
+
+.footer-container {
+    padding: 0 2em;
+}
+
+.footer__text {
+    margin: 0 0 1em;
+}
+
+.footer-logo {
+    margin: 2em;
+}
+
+.location-icon {
+    position: relative;
+    top: 3px;
+    width: 40px;
+}
+
+.phone_container {
+    margin: 0 0 1em;
+}
+
+.phone-icon {
+    position: relative;
+    top: 7px;
+    width: 15px;
+}
+
+.email_container {
+    margin: 0 0 1em;
+}
+
+.email-icon {
+    position: relative;
+    top: 6px;
+    margin: 0 0 4em;
+}
+
+.footer_link {
+    padding: 0 0 1em;
+}
+
+.footer-box-1 {
+    margin: 0 0 2em;
+}
+
+.social_links {
+    padding: 5em 0 0 ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ion-icon {
+    padding: 0 5px 50px;
+    font-size: 24px;
 }
