@@ -464,4 +464,20 @@ ion-icon {
     }
 
     /* profile section */
+
+    .profile-container {
+        margin: 0 auto;
+    }
+
+    .big-quotes {
+        position: absolute;
+        bottom: 17em;
+        right: 15em;
+        z-index: -1;
+        width: 15%;
+    }
+
+    .card {
+        position: relative;
+    }
 }   
