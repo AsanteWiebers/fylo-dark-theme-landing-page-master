@@ -391,3 +391,31 @@ ion-icon {
     padding: 0 5px 50px;
     font-size: 24px;
 }
+
+/* Bigger screens */
+
+@media (min-width: 900px){
+
+    /* navigation */
+    .nav {
+        padding: 2em 5em;
+    }
+
+    /* hero sectio */
+    .productive_img {
+        margin: 0 auto;
+    }
+
+    .hero_heading {
+        font-size: 1.75rem ;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .hero_p {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    
+}   
