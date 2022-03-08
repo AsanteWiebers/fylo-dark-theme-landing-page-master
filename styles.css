@@ -209,9 +209,16 @@ body {
     color: hsl(var(--accent-white));
 }
 
+li:hover {
+    color: hsl(var(--accent-cyan));
+    transition: 200ms;
+}
+
 .logo {
     width: 100px;
 }
+
+
 
 /* hero section */
 
@@ -279,6 +286,7 @@ body {
 .card {
     background: hsl(var(--primary-background-testimonial));
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1em 0 2em;
     margin: 1.5em 0 3em;
     height: 280px;
@@ -529,11 +537,20 @@ ion-icon {
     .footer-box-1 {
         padding: 0 3em 0;
     }
+
+    .footer_link {
+        cursor: pointer;
+    }
     .social_links {
         position: relative;
         bottom: 5em;
     }
     
+    ion-icon:hover {
+        color: aqua;
+        cursor: pointer;
+        transition: 400ms;
+    }
     
 }   
 
