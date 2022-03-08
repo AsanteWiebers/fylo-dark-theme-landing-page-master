@@ -266,6 +266,7 @@ body {
 
 .profile-container {
     margin: 5em 0;
+    /* flex-direction: column; */
 }
 
 .big-quotes {
@@ -321,10 +322,11 @@ body {
 }
 
 input {
+    margin: 8px 0;
     border-radius: 25px;
     border: none;
     padding: 12px 20px;
-    width: 100%
+    width: 100%;
 }
 
 /* footer */
@@ -332,7 +334,6 @@ input {
 footer {
     background-color: hsl(var(--primary-background-footer));
     color: hsl(var(--accent-white));
-    
     padding-top: 17em;
 }
 
@@ -430,8 +431,6 @@ ion-icon {
         margin: 0  auto;
     }
 
-
-
     .productive {
         display: flex;
         padding: 2em 7em;
@@ -443,14 +442,12 @@ ion-icon {
     }
 
     .productive-img {
-        
         width: 110%;
     }
 
     .text-container {
         position: relative;
         top: 8em;
-        
     }
 
     .heading__productive  {
@@ -466,18 +463,43 @@ ion-icon {
     /* profile section */
 
     .profile-container {
+        display: flex;
         margin: 0 auto;
     }
 
     .big-quotes {
         position: absolute;
         bottom: 17em;
-        right: 15em;
         z-index: -1;
         width: 15%;
     }
 
     .card {
         position: relative;
+        margin: 0 10px;
     }
+
+    /* cta section */
+
+    .cta_text {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+
+    }
+    
+    input {
+        top: 25px;
+        position: relative;
+        padding: 15px 200px;
+    }
+
+    
 }   
+
