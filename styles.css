@@ -493,13 +493,47 @@ ion-icon {
         margin: 0 auto;
 
     }
-    
+
     input {
         top: 25px;
         position: relative;
         padding: 15px 200px;
     }
 
+    /* footer */
+
+    .footer__contact {
+        display: flex;
+        width: 50%;
+    }
+
+    .footer__text { 
+        width: 80%;
+    }
+
+    .footer-logo {
+        position: relative;
+        left: 5em;
+    }
+
+    .footer-container {
+        display: flex;
+    }
+
+    .footer-links-container {
+        display: flex;
+        margin: 0 auto;
+        width: 30%;
+    }
+
+    .footer-box-1 {
+        padding: 0 3em 0;
+    }
+    .social_links {
+        position: relative;
+        bottom: 5em;
+    }
+    
     
 }   
 

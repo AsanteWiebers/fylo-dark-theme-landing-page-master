@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet">
@@ -174,38 +177,45 @@
   </div>
 
   <footer>
+
+    <img class="footer-logo" src="/images/logo.svg" alt="company logo ">
     <div class="footer-container container">
-      <img class="footer-logo" src="/images/logo.svg" alt="company logo ">
-      <div class="flex">
-        <div>
-          <img class="location-icon" src="/images/icon-location.svg" alt="location icon">
+
+      <div class="footer__contact">
+        <div class="flex">
+          <div>
+            <img class="location-icon" src="/images/icon-location.svg" alt="location icon">
+          </div>
+          <div>
+            <p class="footer__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua</p>
+          </div>
         </div>
-        <div>
-          <p class="footer__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et
-            dolore magna aliqua</p>
+        <div class="contact-box">
+          <div class="phone_container flex">
+            <div>
+              <img class="phone-icon" src="/images/icon-phone.svg" alt="phone icon">
+            </div>
+            <div>
+              <p>+1-543-123-4567</p>
+            </div>
+          </div>
+
+          <div class="email_container flex">
+            <div>
+              <img class="email-icon" src="/images/icon-email.svg" alt="email icon">
+              <i class="fa-solid fa-envelope"></i>
+              <!-- <p>example@ceo.com</p> -->
+            </div>
+            <div>
+              <p>example@fylo.com</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="phone_container flex">
-        <div>
-          <img class="phone-icon" src="/images/icon-phone.svg" alt="phone icon">
-        </div>
-        <div>
-          <p>+1-543-123-4567</p>
-        </div>
-      </div>
-
-      <div class="email_container flex">
-        <div>
-          <img class="email-icon" src="/images/icon-email.svg" alt="email icon">
-        </div>
-        <div>
-          <p>example@fylo.com</p>
-        </div>
-      </div>
-
-      <div>
+      <div class="footer-links-container">
         <div class="footer-box-1">
           <ul>
             <li class="footer_link">About Us</li>
@@ -222,6 +232,7 @@
           </ul>
         </div>
       </div>
+
       <div class="social_links">
         <ion-icon name="logo-facebook"></ion-icon>
         <ion-icon name="logo-twitter"></ion-icon>
